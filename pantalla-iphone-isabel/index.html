@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla Iphone Isabel</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .bottom{
+            display: flex;
+            flex-direction: row !important;
+            width: 100%;
+        }
+
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, sans-serif;
+  }
+  
+  body {
+    background: #fff;
+    color: #000;
+  }
+  
+  .container {
+    padding: 25px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .col:first-child {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .col img {
+    padding: 10%;
+    width: 100%;
+    border-radius: 30%;
+  }
+  
+  h1 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+
+  h2{
+    background-color: #f44d06;
+    color: #f44d06;
+  }
+
+  h3{
+    color: #f44d06;
+  }
+
+  
+  .col:nth-child(3) h1 {
+    font-size: 24px;
+  }
+  
+  .box {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    background: #f0f0f0;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px  60px;
+  }
+
+  .btn-primary:hover{
+    background-color: #f44d06;
+  }
+  
+  .col:nth-child(6) p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 0 15px;
+  }
+  
+  .btn-secundary {
+    display: inline-block;
+    background: #f44d06;
+    color: #fff;
+    padding: 15px   100px;
+    border-radius: 8px;
+    width: 100%;
+
+    
+
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+            <div class="col">
+                <div></div>
+                <div><&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Detail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❤️</div>
+                <div></div>
+            </div>
+            <br>
+            <div class="col">
+                <img src="1.jpg" alt="Imagen del capuccino">
+            </div>
+            <br>
+            <div class="col">
+                <h1>CAPUCCINO</h1>
+                <h5>whit chocolate</h5>
+                <div class="calificacion">
+                    <div class="col">
+                        <h1>⭐4.9</h1>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col">
+                <h1>DESCRIPTION</h1>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos autem voluptate repudiandae iure quo culpa, labore deserunt saepe asperiores soluta incidunt sunt nam ad distinctio ullam, hic laboriosam amet pariatur!<h3>Read more</h3></P>
+            </div>
+            <br>
+            <div class="col">
+                <h1>SIZE</h1>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <div class="box">
+                        <button type="button" class="btn btn-primary">S</button>
+                        <button type="button" class="btn btn-primary">M</button>
+                        <button type="button" class="btn btn-primary">L</button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col">
+                <h1>price</h1>
+            </div> 
+            <div class="row bottom">
+                <div class="col">
+                    <h3>$4.53</h3>
+                </div>  
+                <div class="col">
+                    <button type="button" class="btn btn-secundary btn-lg">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
